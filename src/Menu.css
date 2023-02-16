@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center-right;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    min-height: 50px;
+    padding: 0;
+    background-color: lightgray;
+    color: whitesmoke;
+
+}
+
+.navbar-links {
+    display: flex;
+}
+.navbar-link {
+    display: inline-block;
+    position:relative;
+    left: 40%;
+    transform: none;
+    float: none;
+    list-style: none;
+    margin-right: 10px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar-link:hover {
+    background-color:#0a0a23;
+    color: white;
+}
+
